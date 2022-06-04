@@ -13,7 +13,10 @@ const Update = () => {
           A Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard.{" "}
         </p>
-        <div className="flex mt-10" style={{ width: "656px", height: "75px" }}>
+        <div
+          className="md:flex  mt-10 "
+          style={{ maxWidth: "656px", height: "75px" }}
+        >
           <input
             className={styles.inpt_submit}
             placeholder="email"

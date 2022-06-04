@@ -5,7 +5,7 @@ import pngaaa4 from "./pngaaa4.png";
 import player from "./player.png";
 const Intro = () => {
   return (
-    <section className="grid grid-cols-2 gap-20">
+    <section className="grid grid-flow-row-dense md:grid-flow-row   md:grid-cols-2 gap-20">
       <div className={styles.intro_1}>
         <span className={styles.phrase1}>
           Save Time and Start Digital Wallet!
@@ -32,7 +32,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center">
+      <div className="py-0.5 w-full">
         <div className={styles.shape}>
           <img
             src={pngaaa4}

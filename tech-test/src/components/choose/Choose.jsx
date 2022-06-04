@@ -3,16 +3,11 @@ import styles from "./choose.module.css";
 import laptop from "./laptop.png";
 const Choose = () => {
   return (
-    <section className="grid grid-cols-2 gap-36">
+    <section className="grid md:grid-cols-2 ">
       <div className={styles.shape}>
-        <img
-          style={{ width: "597.81px", height: "597.81px" }}
-          src={laptop}
-          alt=""
-          srcset=""
-        />
+        <img src={laptop} alt="" srcset="" />
       </div>
-      <div className="pr-10">
+      <div>
         <h3 className={styles.title}>
           Choose and Convert your Wallet Anytime!
         </h3>

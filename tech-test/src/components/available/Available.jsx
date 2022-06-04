@@ -5,20 +5,22 @@ import mobile from "./mobile.png";
 import styles from "./available.module.css";
 const Available = () => {
   return (
-    <section className="grid grid-cols-2 gap-20">
-      <div className="flex flex-col justify-center items-center ">
-        <h3 className={styles.title}>Available and Download Anytime!</h3>
-        <p className={styles.paragraph}>
-          A Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard.
-        </p>
-        <div className="flex justify-around">
-          <img src={play_store} alt="" srcset="" />
-          <img src={app_store} alt="" srcset="" />
+    <section className="grid md:grid-cols-2 my-20">
+      <div className="flex justify-center items-center p-10">
+        <div className="flex flex-col ">
+          <h3 className={styles.title}>Available and Download Anytime!</h3>
+          <p className={styles.paragraph}>
+            A Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard.
+          </p>
+          <div className="flex justify-around pt-10">
+            <img src={play_store} alt="" srcset="" />
+            <img src={app_store} alt="" srcset="" />
+          </div>
         </div>
       </div>
-      <div>
-        <img src={mobile} alt="" srcset="" />
+      <div className={styles.shape}>
+        <img className={styles.mobile} src={mobile} alt="" srcset="" />
       </div>
     </section>
   );

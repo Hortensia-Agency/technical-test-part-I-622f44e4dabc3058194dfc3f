@@ -1,6 +1,5 @@
 .title {
-  width: 590.38px;
-  height: 144px;
+  max-width: 590.38px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -13,8 +12,7 @@
   color: #0d0d0d;
 }
 .paragraph {
-  width: 499.81px;
-  height: 96px;
+  max-width: 499.81px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -25,4 +23,18 @@
   letter-spacing: 0.016em;
 
   color: #807d7d;
+}
+.shape {
+  max-width: 677.51px;
+  height: 330.94px;
+
+  background: #236e57;
+  border-radius: 0px 198.468px 198.468px 0px;
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: center;
+}
+.mobile {
+  transform: rotate(180deg);
+  height: 390.94px;
 }

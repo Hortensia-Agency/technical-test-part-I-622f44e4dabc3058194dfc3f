@@ -19,7 +19,7 @@ const Recommand = () => {
         <img src={binance} alt="" srcset="" />
         <img src={bitmex} alt="" srcset="" />
       </div>
-      <div className="flex items-center justify-center p-28">
+      <div className="flex items-center justify-center py-28">
         <div>
           <h2 className={styles.why}>Why Choose Us</h2>
           <p className={styles.desc_why}>

@@ -7,7 +7,7 @@ import styles from "./footer.module.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="flex justify-around items-center">
+      <div className="md:flex justify-around items-center">
         <div>
           <h4 className={styles.title_logo}>XYZ</h4>
           <p className={styles.paragraph}>
@@ -20,7 +20,7 @@ const Footer = () => {
             <img src={insta} alt="" srcset="" />
           </div>
         </div>
-        <div className="flex  justify-around">
+        <div className="flex justify-around">
           <div className="flex flex-col  mx-12">
             <h4 className={styles.title}>About Us</h4>
             <p className={styles.rights}>Whitepaper </p>
