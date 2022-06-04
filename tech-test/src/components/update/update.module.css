@@ -1,0 +1,87 @@
+.wrapper {
+}
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  /* identical to box height, or 72px */
+
+  text-align: center;
+  letter-spacing: 0.016em;
+
+  color: #ffffff;
+  width: 572px;
+  height: 72px;
+}
+.paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 72px */
+
+  text-align: center;
+  letter-spacing: 0.016em;
+
+  color: #ffffff;
+  width: 655.85px;
+  height: 90px;
+}
+.inpt_submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 8px;
+
+  width: 656px;
+  height: 75px;
+
+  border: 1px solid #fff8f1;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.inpt_submit::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.submit_btn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 8px;
+
+  width: 207px;
+  height: 75px;
+
+  background: #f05830;
+  border: 1px solid #fff8f1;
+  border-radius: 0px 5px 5px 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}

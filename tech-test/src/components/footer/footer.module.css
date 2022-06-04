@@ -1,0 +1,48 @@
+.title_logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 93px;
+
+  color: #236e57;
+}
+.paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.016em;
+
+  color: #807d7d;
+  width: 492.61px;
+}
+.rights {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 180% */
+
+  text-align: center;
+
+  color: #807d7d;
+}
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  letter-spacing: 0.016em;
+
+  color: #0d0d0d;
+}

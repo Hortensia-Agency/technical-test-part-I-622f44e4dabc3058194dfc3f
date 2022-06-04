@@ -1,0 +1,63 @@
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  /* or 72px */
+
+  letter-spacing: 0.016em;
+
+  color: #0d0d0d;
+}
+.paragraph {
+  color: #0d0d0d;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+  align-items: center;
+  letter-spacing: 0.016em;
+
+  color: #807d7d;
+  margin: 1.4rem 0 2.4rem 0;
+}
+
+.choose_btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #f05830;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 8px;
+
+  border: 1px solid #f05830;
+  border-radius: 5px;
+}
+
+.shape {
+  width: 600px;
+  height: 340px;
+
+  background: #236e57;
+  border-radius: 0px 198.601px 198.601px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.shape img {
+  padding: 0 0 70px 70px;
+}

@@ -1,0 +1,55 @@
+.download_btn {
+  border-radius: 5px;
+  padding: 24px 36px;
+  background-color: #f05830;
+  text-align: "center";
+
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.016em;
+}
+.center_nav_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.nav_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 24px 36px;
+  gap: 8px;
+}
+.xyz {
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #236e57;
+}
+.nav_item {
+  width: 81px;
+  height: 32px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+
+  letter-spacing: 0.016em;
+
+  color: #0d0d0d;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

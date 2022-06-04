@@ -1,0 +1,52 @@
+.middle_txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.016em;
+
+  color: #236e57;
+}
+.line {
+  width: 388.57px;
+  height: 0px;
+
+  border: 2px solid #f05830;
+  /* transform: rotate(180deg); */
+}
+.why {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  /* identical to box height, or 72px */
+
+  text-align: center;
+  letter-spacing: 0.016em;
+
+  color: #0d0d0d;
+}
+.desc_why {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.016em;
+
+  color: #807d7d;
+  width: 653.99px;
+  height: 90px;
+}
