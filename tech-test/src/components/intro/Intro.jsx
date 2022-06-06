@@ -5,7 +5,7 @@ import pngaaa4 from "./pngaaa4.png";
 import player from "./player.png";
 const Intro = () => {
   return (
-    <section className="grid grid-flow-row-dense md:grid-flow-row   md:grid-cols-2 gap-20">
+    <section className="flex md:flex-row flex-col-reverse  gap-20">
       <div className={styles.intro_1}>
         <span className={styles.phrase1}>
           Save Time and Start Digital Wallet!

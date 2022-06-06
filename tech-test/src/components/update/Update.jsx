@@ -4,8 +4,8 @@ import styles from "./update.module.css";
 const Update = () => {
   return (
     <section
-      style={{ backgroundImage: `url(${bg})`, height: "410.04px" }}
-      className="flex justify-center items-center "
+      style={{ backgroundImage: `url(${bg})` }}
+      className="flex justify-center items-center p-10"
     >
       <div>
         <h3 className={styles.title}>Ready to get updated?</h3>
@@ -14,8 +14,8 @@ const Update = () => {
           industry. Lorem Ipsum has been the industry's standard.{" "}
         </p>
         <div
-          className="md:flex  mt-10 "
-          style={{ maxWidth: "656px", height: "75px" }}
+          className="md:flex  my-10 "
+          style={{ maxWidth: "656px", maxHeight: "75px" }}
         >
           <input
             className={styles.inpt_submit}
@@ -24,7 +24,9 @@ const Update = () => {
             name=""
             id=""
           />
-          <button className={styles.submit_btn}>Submit</button>
+          <span className="md:my-0 my-10 flex">
+            <button className={`${styles.submit_btn}`}>Submit</button>
+          </span>
         </div>
       </div>
     </section>

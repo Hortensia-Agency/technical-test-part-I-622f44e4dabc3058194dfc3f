@@ -3,8 +3,8 @@ import styles from "./navbar.module.css";
 import down from "./down.png";
 const Navbar = () => {
   return (
-    <nav className="sm:flex flow-root">
-      <div className={`${styles.nav_wrapper} float-right`}>
+    <nav className="">
+      <div className={`${styles.nav_wrapper} `}>
         <a href="/" className={styles.xyz}>
           XYZ
         </a>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="hidden sm:block ">
           <button className={styles.download_btn}>Download</button>
         </div>
-        <div className=" sm:hidden float-right flex justify-end">
+        <div className=" sm:hidden  flex justify-end">
           <img src={down} alt="" srcset="" />{" "}
         </div>
       </div>

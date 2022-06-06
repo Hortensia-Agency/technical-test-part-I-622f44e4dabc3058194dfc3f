@@ -9,15 +9,21 @@ const Footer = () => {
     <footer>
       <div className="md:flex justify-around items-center">
         <div>
-          <h4 className={styles.title_logo}>XYZ</h4>
-          <p className={styles.paragraph}>
-            A Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard.
-          </p>
-          <div className="flex justify-between gap-6 mt-5 w-36 items-center">
-            <img src={fb} alt="" srcset="" />
-            <img src={twitter} alt="" srcset="" />
-            <img src={insta} alt="" srcset="" />
+          <h4 className={`${styles.title_logo} md:text-left text-center`}>
+            XYZ
+          </h4>
+          <span className="flex md:justify-start justify-center">
+            <p className={`${styles.paragraph} md:text-left text-center`}>
+              A Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard.
+            </p>
+          </span>
+          <div className="flex md:justify-start justify-center">
+            <div className="flex justify-between gap-6 mt-5 w-36 items-start content-center ">
+              <img src={fb} alt="" srcset="" />
+              <img src={twitter} alt="" srcset="" />
+              <img src={insta} alt="" srcset="" />
+            </div>
           </div>
         </div>
         <div className="flex justify-around">

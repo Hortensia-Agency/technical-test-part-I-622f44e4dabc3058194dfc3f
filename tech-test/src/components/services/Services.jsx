@@ -47,7 +47,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="grid md:grid-cols-3 grid-cols-2">
+    <section className="grid md:grid-cols-3 sm:grid-cols-2">
       {services.map((service, i) => (
         <div className={`${i === 0 ? styles.first_card : ""} ${styles.card}`}>
           <img src={service.icon} alt="" srcset="" />

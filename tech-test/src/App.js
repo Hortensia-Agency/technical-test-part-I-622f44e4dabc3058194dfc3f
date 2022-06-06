@@ -11,8 +11,9 @@ import Update from "./components/update/Update";
 import Footer from "./components/footer/Footer";
 
 function App() {
+  //todo fix responsive design
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Intro />
       <Recommand />

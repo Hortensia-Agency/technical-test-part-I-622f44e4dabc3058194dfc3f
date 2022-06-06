@@ -5,7 +5,7 @@ import mobile from "./mobile.png";
 import styles from "./available.module.css";
 const Available = () => {
   return (
-    <section className="grid md:grid-cols-2 my-20">
+    <section className="flex md:flex-row flex-col-reverse my-20">
       <div className="flex justify-center items-center p-10">
         <div className="flex flex-col ">
           <h3 className={styles.title}>Available and Download Anytime!</h3>
